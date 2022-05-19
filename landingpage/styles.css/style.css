@@ -23,6 +23,10 @@
 	background-color: #525252;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   margin: auto;
   background-color: #252525;
@@ -123,7 +127,7 @@ a{
   width: 547px;
   height: 104px;
   left: 687px;
-  top: 58px;
+  top: 30px;
   font-family: 'Sarala';
   font-style: normal;
   font-weight: 700;
@@ -145,7 +149,7 @@ p{
 font-family: 'Merriweather';
 font-style: normal;
 font-weight: 400;
-font-size: 24px;
+font-size: 26px;
 line-height: 30px;
 color: #E6F2F8;
 }
@@ -166,10 +170,64 @@ color: #E6F2F8;
   top: 748px;
 }
 
+.subtitle3{
+  position: absolute;
+  width: 383px;
+  height: 65px;
+  left: 325px;
+  top: 1267px;
+}
+
 .p1{
   position: absolute;
   width: 1242px;
   height: 360px;
   left: 325px;
   top: 315px;
+}
+
+.p2{
+  position: absolute;
+  width: 1242px;
+  height: 330px;
+  left: 325px;
+  top: 844px;
+}
+
+.p3{
+  position: absolute;
+  width: 1242px;
+  height: 480px;
+  left: 325px;
+  top: 1363px;
+}
+
+.p4{
+  position: absolute;
+  width: 1242px;
+  height: 240px;
+  left: 320px;
+  top: 220px;
+}
+
+#career{
+  position: absolute;
+  width: 1920px;
+  height: 480px;
+  left: 0px; 
+  top: 1900px;
+}
+
+.career{
+  position: absolute;
+  width: 796px;
+  height: 98px;
+  left: 562px;
+  top: 30px;
+  font-family: 'Sarala';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 104px;
+  color: #CFE6F0;
 }
