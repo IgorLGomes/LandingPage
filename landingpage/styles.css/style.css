@@ -43,25 +43,6 @@ header{
   background: linear-gradient(65.99deg, #23232F 11.05%, #52758E 88.83%);
 }
 
-nav{
-  text-align: center;
-  position: relative;
-  height: 105px;
-  width: 100%;
-  left: 0px;
-  top: 870px;
-  background: #CFE6F0;
-}
-
-content {
-  position: absolute;
-  width: 100%;
-  height: 3640px;
-  left: 0px;
-  top: 975px;
-  background: #252525;
-}
-
 .title{
   position: absolute;
   height: 100%;
@@ -73,28 +54,14 @@ content {
   font-size: 90px;
 }
 
-h2{
-  position: absolute;
-  width: 723px;
-  height: 188px;
-  left: 210px;
-  top: 370px;
-  font-family: 'Sarala';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 25px;
-  line-height: 39px;
-  color: #E6F2F8;
-}
-
-a{
-  font-family: 'Sarala';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 39px;
-  color: #252525;
-  text-decoration: none;
+nav{
+  text-align: center;
+  position: relative;
+  height: 105px;
+  width: 100%;
+  left: 0px;
+  top: 870px;
+  background: #CFE6F0;
 }
 
 .nav-profession{
@@ -122,6 +89,33 @@ a{
   top: 30%;
 }
 
+a{
+  font-family: 'Sarala';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 39px;
+  color: #252525;
+  text-decoration: none;
+}
+
+content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 975px;
+  background: #252525;
+}
+
+#discover{
+  position: absolute;
+  width: 100%;
+  height: 1950px;
+  left: 0px;
+  top: 50px;
+}
+
 .discover{
   position: absolute;
   width: 547px;
@@ -136,6 +130,20 @@ a{
   color: #CFE6F0;
 }
 
+h2{
+  position: absolute;
+  width: 723px;
+  height: 188px;
+  left: 210px;
+  top: 370px;
+  font-family: 'Sarala';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 39px;
+  color: #E6F2F8;
+}
+
 #subtitle{
   font-family: 'Sarala';
   font-style: normal;
@@ -143,15 +151,6 @@ a{
   font-size: 40px;
   line-height: 65px;
   color: #CFE6F0;
-}
-
-p{
-font-family: 'Merriweather';
-font-style: normal;
-font-weight: 400;
-font-size: 26px;
-line-height: 30px;
-color: #E6F2F8;
 }
 
 .subtitle1{
@@ -178,6 +177,15 @@ color: #E6F2F8;
   top: 1267px;
 }
 
+p{
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  color: #E6F2F8;
+}
+
 .p1{
   position: absolute;
   width: 1242px;
@@ -202,20 +210,12 @@ color: #E6F2F8;
   top: 1363px;
 }
 
-.p4{
-  position: absolute;
-  width: 1242px;
-  height: 240px;
-  left: 320px;
-  top: 220px;
-}
-
 #career{
   position: absolute;
-  width: 1920px;
+  width: 100%;
   height: 480px;
   left: 0px; 
-  top: 1900px;
+  top: 1920px;
 }
 
 .career{
@@ -230,4 +230,93 @@ color: #E6F2F8;
   font-size: 64px;
   line-height: 104px;
   color: #CFE6F0;
+}
+
+.p4{
+  position: absolute;
+  width: 1242px;
+  height: 240px;
+  left: 320px;
+  top: 241px;
+}
+
+#course{
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  left: 0px;
+  top: 2400px;
+}
+
+.course{
+  position: absolute;
+  width: 502px;
+  height: 104px;
+  left: 709px;
+  top: 50px;
+  font-family: 'Sarala';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 104px;
+  color: #CFE6F0;
+}
+
+.p5{
+  position: absolute;
+  width: 755px;
+  height: 510px;
+  left: 326px;
+  top: 240px;
+}
+
+footer{
+  position: absolute;
+  width: 100% ;
+  height: 525px;
+  left: 0px;
+  top: 4211px;
+  background: linear-gradient(180deg, rgba(173, 216, 234, 0.72) 0%, rgba(207, 230, 240, 0.83) 40.16%, rgba(250, 253, 255, 0.9) 90.97%);
+}
+
+.collumn1{
+  position: absolute;
+  width: 336px;
+  height: 348px;
+  left: 320px;
+  top: 10px;
+  font-family: 'Sarala';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 39px;
+  color: #252525;
+}
+
+.collumn2{
+  position: absolute;
+  width: 292px;
+  height: 285px;
+  left: 834px;
+  top: 100px;
+  font-family: 'Sarala';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 39px;
+  color: #252525;
+}
+
+.collumn3{
+  position: absolute;
+  width: 262px;
+  height: 203px;
+  left: 1300px;
+  top:105px;
+  font-family: 'Sarala';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 39px;
+  color: #252525;
 }
