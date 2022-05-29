@@ -35,7 +35,7 @@ body{
 header{
   position: absolute;
   width: 100%;
-  height: 870px;
+  height: 980px;
   left: 0%;
   right: 0%;
   top: 0%;
@@ -45,13 +45,16 @@ header{
 
 .title{
   position: absolute;
-  height: 100%;
-  left: 210px;
-  top: 200px;
-  color: #CFE6F0;
-  font-family: 'Sarala', sans-serif;
+  width: 697px;
+  height: 115px;
+  left: 316px;
+  top: 265px;
+  font-family: 'Sarala';
   font-style: normal;
-  font-size: 90px;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 163px;
+  color: #CFE6F0;
 }
 
 nav{
@@ -60,7 +63,7 @@ nav{
   height: 105px;
   width: 100%;
   left: 0px;
-  top: 870px;
+  top: 981px;
   background: #CFE6F0;
 }
 
@@ -104,14 +107,14 @@ content {
   width: 100%;
   height: 100%;
   left: 0px;
-  top: 975px;
+  top: 1087px;
   background: #252525;
 }
 
 #discover{
   position: absolute;
   width: 100%;
-  height: 1950px;
+  height: 7000px;
   left: 0px;
   top: 50px;
 }
@@ -134,12 +137,12 @@ h2{
   position: absolute;
   width: 723px;
   height: 188px;
-  left: 210px;
-  top: 370px;
+  left: 316px;
+  top: 460px;
   font-family: 'Sarala';
   font-style: normal;
   font-weight: 400;
-  font-size: 25px;
+  font-size: 24px;
   line-height: 39px;
   color: #E6F2F8;
 }
@@ -165,16 +168,32 @@ h2{
   position: absolute;
   width: 368px;
   height: 65px;
-  left: 325px;
-  top: 748px;
+  left: 327px;
+  top: 880px;
 }
 
 .subtitle3{
   position: absolute;
   width: 383px;
   height: 65px;
-  left: 325px;
-  top: 1267px;
+  left: 327px;
+  top: 1345px;
+}
+
+.subtitle4{
+  position: absolute;
+  width: 269px;
+  height: 65px;
+  left: 327px;
+  top: 262px;
+}
+
+.subtitle5{
+  position: absolute;
+  width: 444px;
+  height: 47px;
+  left: 315px;
+  top: 1515px;
 }
 
 p{
@@ -188,86 +207,114 @@ p{
 
 .p1{
   position: absolute;
-  width: 1242px;
-  height: 360px;
-  left: 325px;
+  width: 633px;
+  height: 450px;
+  left: 327px;
   top: 315px;
+}
+
+.p1-2{
+  position: absolute;
+  width: 1297px;
+  height: 60px;
+  left: 327px;
+  top: 765px;
+
+}
+
+.ux-wall{
+  position: absolute;
+  width: 638px;
+  height: 426px;
+  left: 977px;
+  top: 340px;
 }
 
 .p2{
   position: absolute;
-  width: 1242px;
-  height: 330px;
-  left: 325px;
-  top: 844px;
+  width: 1294px;
+  height: 300px;
+  left: 327px;
+  top: 970px;
 }
 
 .p3{
   position: absolute;
-  width: 1242px;
-  height: 480px;
-  left: 325px;
-  top: 1363px;
-}
-
-#career{
-  position: absolute;
-  width: 100%;
-  height: 480px;
-  left: 0px; 
-  top: 1920px;
-}
-
-.career{
-  position: absolute;
-  width: 796px;
-  height: 98px;
-  left: 562px;
-  top: 30px;
-  font-family: 'Sarala';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 104px;
-  color: #CFE6F0;
-}
-
-.p4{
-  position: absolute;
-  width: 1242px;
+  width: 625px;
   height: 240px;
-  left: 320px;
-  top: 241px;
+  left: 327px;
+  top: 1430px;  
 }
 
-#course{
+.bridge{
+  position: absolute;
+  width: 638px;
+  height: 211px;
+  left: 970px;
+  top: 1460px;  
+}
+
+.p3-2{
+  position: absolute;
+  width: 1290px;
+  height: 300px;
+  left: 327px;
+  top: 1700px;
+}
+
+#labor{
   position: absolute;
   width: 100%;
   height: 800px;
   left: 0px;
-  top: 2400px;
+  top: 2100px;
 }
 
-.course{
+.market{
   position: absolute;
-  width: 502px;
+  width: 637px;
   height: 104px;
-  left: 709px;
+  left: 644px;
   top: 50px;
   font-family: 'Sarala';
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
   line-height: 104px;
+  text-align: center;
   color: #CFE6F0;
+}
+
+.p4{
+  position: absolute;
+  width: 1287px;
+  height: 570px;
+  left: 327px;
+  top: 350px;
 }
 
 .p5{
   position: absolute;
-  width: 755px;
-  height: 510px;
-  left: 326px;
-  top: 240px;
+  width: 1289px;
+  height: 150px;
+  left: 315px;
+  top: 1613px;
+}
+
+.graphic1{
+  position: absolute;
+  width: 850px;
+  height: 530px;
+  left: 27%;
+  top: 925px;
+}
+
+.graphic2{
+  position: absolute;
+  width: 662px;
+  height: 568px;
+  left: 629px;
+  top: 1803px;
 }
 
 footer{
@@ -275,7 +322,7 @@ footer{
   width: 100% ;
   height: 525px;
   left: 0px;
-  top: 4211px;
+  top: 6211px;
   background: linear-gradient(180deg, rgba(173, 216, 234, 0.72) 0%, rgba(207, 230, 240, 0.83) 40.16%, rgba(250, 253, 255, 0.9) 90.97%);
 }
 
