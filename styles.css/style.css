@@ -114,7 +114,7 @@ content {
 #discover{
   position: absolute;
   width: 100%;
-  height: 7000px;
+  height: 6300px;
   left: 0px;
   top: 50px;
 }
@@ -317,12 +317,195 @@ p{
   top: 1803px;
 }
 
+#career{
+  position: absolute;
+  width: 100%;
+  height: 1800px;
+  left: 0px;
+  top: 4500px;
+}
+
+.career{
+  position: absolute;
+  width: 798px;
+  height: 86px;
+  left: 561px;
+  top: 120px;
+  font-family: 'Sarala';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 104px;
+  text-align: center;
+  color: #CFE6F0;
+}
+
+.p6{
+  position: absolute;
+  width: 1287px;
+  height: 184px;
+  left: 311px;
+  top: 302px;
+}
+
+.ux-course{
+  position: absolute;
+  width: 100%;
+  height: 415px;
+  left: 0px;
+  top: 567px;
+}
+
+.subtitle6{
+  position: absolute;
+  width: 760px;
+  height: 78px;
+  left: 311px;
+  top: 0px;
+}
+
+.subtitle7{
+  position: absolute;
+  width: 234px;
+  height: 65px;
+  left: 311px;
+  top: 112px;
+}
+
+.anhanguera1{
+  position: absolute;
+  width: 240px;
+  height: 159px;
+  left: 311px;
+  top: 230px;
+}
+
+.subtitle8{
+  position: absolute;
+  width: 211px;
+  height: 65px;
+  left: 855px;
+  top: 112px;
+}
+
+.fiap{
+  position: absolute;
+  width: 268px;
+  height: 79px;
+  left: 826px;
+  top: 270px;
+}
+
+.subtitle9{
+  position: absolute;
+  width: 212px;
+  height: 65px;
+  left: 1387px;
+  top: 112px;
+}
+
+.mackenzie1{
+  position: absolute;
+  width: 159px;
+  height: 159px;
+  left: 1413px;
+  top: 225px;
+}
+
+.ui-course{
+  position: absolute;
+  width: 100%;
+  height: 481px;
+  left: 0px;
+  top: 982px;
+}
+
+.subtitle10{
+  position: absolute;
+  width: 743px;
+  height: 78px;
+  left: 311px;
+  top: 7px;
+}
+
+.subtitle11{
+  position: absolute;
+  width: 142px;
+  height: 65px;
+  left: 678px;
+  top: 93px;
+}
+
+.puc{
+  position: absolute;
+  width: 203px;
+  height: 323px;
+  left: 648px;
+  top: 200px;
+}
+
+.subtitle12{
+  position: absolute;
+  width: 287px;
+  height: 65px;
+  left: 1100px;
+  top: 93px;
+}
+
+.ecole{
+  position: absolute;
+  width: 320px;
+  height: 299px;
+  left: 1083px;
+  top: 200px; 
+}
+
+.specialization{
+  position: absolute;
+  width: 1920px;
+  height: 318px;
+  left: 0px;
+  top: 1463px;
+}
+
+.subtitle13{
+  position: absolute;
+  width: 592px;
+  height: 78px;
+  left: 311px;
+  top: 56px;
+}
+
+.anhanguera2{
+  position: absolute;
+  width: 240px;
+  height: 159px;
+  left: 311px;
+  top: 170px;
+}
+
+.mba{
+  position: absolute;
+  width: 395px;
+  height: 68.24px;
+  left: 785px;
+  top: 210px;
+}
+
+.mackenzie2{
+  position: absolute;
+  width: 159px;
+  height: 159px;
+  left: 1413px;
+  top: 170px;
+}
+
 footer{
   position: absolute;
   width: 100% ;
   height: 525px;
   left: 0px;
-  top: 6211px;
+  top: 7500px;
   background: linear-gradient(180deg, rgba(173, 216, 234, 0.72) 0%, rgba(207, 230, 240, 0.83) 40.16%, rgba(250, 253, 255, 0.9) 90.97%);
 }
 
