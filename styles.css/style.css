@@ -28,71 +28,54 @@ html {
 }
 
 body{
-  margin: auto;
   background-color: #252525;
+  padding: 0;
+  margin: 0;
 }
 
 header{
-  position: absolute;
   width: 100%;
   height: 980px;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0.41%;
   background: linear-gradient(65.99deg, #23232F 11.05%, #52758E 88.83%);
 }
 
+/* Title */
 .title{
   position: absolute;
-  width: 697px;
+  width: 750px;
   height: 115px;
-  left: 316px;
+  left: 320px;
   top: 265px;
   font-family: 'Sarala';
-  font-style: normal;
-  font-weight: 700;
   font-size: 100px;
-  line-height: 163px;
-  color: #CFE6F0;
+  color: #C3E0EC;
+  transition: 1.5s ease;
 }
 
+.title:hover{
+  transform: scale(1.03)
+}
+
+
+/* Navigation */
 nav{
-  text-align: center;
-  position: relative;
+  background: #CFE6F0;
+  position: sticky;
   height: 105px;
   width: 100%;
-  left: 0px;
-  top: 981px;
-  background: #CFE6F0;
+  top: 0;
+  overflow: hidden;
+  z-index: 2;
 }
-
-.nav-profession{
-  position: absolute;
-  width: 196px;
-  height: 39px;
-  left: 325px;
-  top: 30%;
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 320px;
 }
-
-.nav-join{
-  text-align: center;
-  position: absolute;
-  width: 332px;
-  height: 39px;
-  left: 794px;
-  top: 34px;
+nav li{
+  list-style: none;
 }
-
-.nav-course{
-  position: absolute;
-  width: 157px;
-  height: 39px;
-  left: 1399px;
-  top: 30%;
-}
-
-a{
+nav a{
   font-family: 'Sarala';
   font-style: normal;
   font-weight: 700;
@@ -100,23 +83,44 @@ a{
   line-height: 39px;
   color: #252525;
   text-decoration: none;
+  display: inline-block;
+  transition: 1.5s;
+}
+nav a::after{
+  content: '';
+  width: 0;
+  height: 5px;
+  background-color: #252525;
+  margin: auto;
+  display: block;
+  border-radius: 30px;
+}
+nav a:hover::after{
+  width: 100%;
+  transition: width 1s ease;
+  margin-top: 5px;
+}
+nav a:hover{
+  font-size: 27px;
 }
 
+
+/* Content */
 content {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 6300px;
   left: 0px;
   top: 1087px;
-  background: #252525;
 }
 
 #discover{
   position: absolute;
   width: 100%;
-  height: 6300px;
+  height: 2100px;
   left: 0px;
-  top: 50px;
+  top: 0px;
+  background-color: #252525;
 }
 
 .discover{
@@ -130,7 +134,7 @@ content {
   font-weight: 700;
   font-size: 64px;
   line-height: 104px;
-  color: #CFE6F0;
+  color: #C3E0EC;
 }
 
 h2{
@@ -265,9 +269,10 @@ p{
 #labor{
   position: absolute;
   width: 100%;
-  height: 800px;
+  height: 2460px;
   left: 0px;
   top: 2100px;
+  background-color: #2A2A2A;
 }
 
 .market{
@@ -275,14 +280,14 @@ p{
   width: 637px;
   height: 104px;
   left: 644px;
-  top: 50px;
+  top: 45px;
   font-family: 'Sarala';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700; 
   font-size: 64px;
   line-height: 104px;
   text-align: center;
-  color: #CFE6F0;
+  color: #C3E0EC;
 }
 
 .p4{
@@ -320,9 +325,10 @@ p{
 #career{
   position: absolute;
   width: 100%;
-  height: 1800px;
+  height: 1858px;
   left: 0px;
-  top: 4500px;
+  top: 4560px;
+  background-color: #252525;
 }
 
 .career{
@@ -330,14 +336,14 @@ p{
   width: 798px;
   height: 86px;
   left: 561px;
-  top: 120px;
+  top: 70px;
   font-family: 'Sarala';
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
   line-height: 104px;
   text-align: center;
-  color: #CFE6F0;
+  color: #C3E0EC;
 }
 
 .p6{
@@ -348,8 +354,9 @@ p{
   top: 302px;
 }
 
+
 .ux-course{
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 415px;
   left: 0px;
@@ -372,14 +379,6 @@ p{
   top: 112px;
 }
 
-.anhanguera1{
-  position: absolute;
-  width: 240px;
-  height: 159px;
-  left: 311px;
-  top: 230px;
-}
-
 .subtitle8{
   position: absolute;
   width: 211px;
@@ -388,28 +387,12 @@ p{
   top: 112px;
 }
 
-.fiap{
-  position: absolute;
-  width: 268px;
-  height: 79px;
-  left: 826px;
-  top: 270px;
-}
-
 .subtitle9{
   position: absolute;
   width: 212px;
   height: 65px;
   left: 1387px;
   top: 112px;
-}
-
-.mackenzie1{
-  position: absolute;
-  width: 159px;
-  height: 159px;
-  left: 1413px;
-  top: 225px;
 }
 
 .ui-course{
@@ -436,28 +419,12 @@ p{
   top: 93px;
 }
 
-.puc{
-  position: absolute;
-  width: 203px;
-  height: 323px;
-  left: 648px;
-  top: 200px;
-}
-
 .subtitle12{
   position: absolute;
   width: 287px;
   height: 65px;
   left: 1100px;
   top: 93px;
-}
-
-.ecole{
-  position: absolute;
-  width: 320px;
-  height: 299px;
-  left: 1083px;
-  top: 200px; 
 }
 
 .specialization{
@@ -476,36 +443,144 @@ p{
   top: 56px;
 }
 
-.anhanguera2{
+/* UX Graduation */
+.ux-links{
   position: absolute;
-  width: 240px;
-  height: 159px;
-  left: 311px;
-  top: 170px;
+  width: 100%;
+  height: 200px;
+  top: 225px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.anhanguera1{
+  position: absolute;
+  height: 150px;
+  display: inline-block;
+  transition: 1.5s;
+  top: 0px;
+  left: 325px;
+}
+.fiap{
+  position: absolute;
+  width: 268px;
+  display: inline-block;
+  transition: 1.5s;
+  left: 845px;
+  top: 20px;
+}
+.mackenzie1{
+  position: absolute;
+  width: 150px;
+  display: inline-block;
+  transition: 1.5s;
+  left: 1420px;
+  top: 0px;
 }
 
+.ux-links img:hover{
+  transform: scale(1.15)
+}
+.ux-links li{
+  list-style: none;
+}
+
+
+/* UI Graduation */
+.ui-links{
+  position: absolute;
+  width: 100%;
+  height: 250x;
+  top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.puc{
+  position: absolute;
+  display: inline-block;
+  transition: 1.5s;
+  width: 200px;
+  left: 651px;
+  top: 0px;
+}
+
+.ecole{
+  position: absolute;
+  display: inline-block;
+  transition: 1.5s;
+  width: 320px;
+  height: 299px;
+  left: 1083px;
+  top: 0px;
+}
+
+.ui-links img:hover{
+  transform: scale(1.15)
+}
+
+.ui-links li{
+  list-style: none;
+}
+
+
+
+/* UX/UI Specialization */
+.specialization-links{
+  position: absolute;
+  width: 100%;
+  height: 170px;
+  top: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.anhanguera2{
+  position: absolute;
+  display: inline-block;
+  transition: 1.5s;
+  width: 240px;
+  height: 159px;
+  left: 325px;
+  top: 0px;
+}
 .mba{
   position: absolute;
+  display: inline-block;
+  transition: 1.5s;
   width: 395px;
   height: 68.24px;
   left: 785px;
-  top: 210px;
+  top: 35px;
 }
-
 .mackenzie2{
   position: absolute;
+  display: inline-block;
+  transition: 1.5s;
   width: 159px;
   height: 159px;
-  left: 1413px;
-  top: 170px;
+  left: 1430px;
+  top: 0px;
+}
+.specialization-links img:hover{
+  transform: scale(1.15)
+}
+.specialization-links li{
+  list-style: none;
 }
 
+
+/* Footer */
 footer{
   position: absolute;
   width: 100% ;
   height: 525px;
   left: 0px;
-  top: 7500px;
+  top: 1900px;
   background: linear-gradient(180deg, rgba(173, 216, 234, 0.72) 0%, rgba(207, 230, 240, 0.83) 40.16%, rgba(250, 253, 255, 0.9) 90.97%);
 }
 
