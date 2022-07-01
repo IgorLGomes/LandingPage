@@ -34,6 +34,7 @@ body{
 }
 
 header{
+  position: relative;
   width: 100%;
   height: 980px;
   background: linear-gradient(65.99deg, #23232F 11.05%, #52758E 88.83%);
@@ -55,34 +56,47 @@ header{
 .title:hover{
   transform: scale(1.03)
 }
+h2{
+  position: absolute;
+  width: 723px;
+  height: 188px;
+  left: 316px;
+  top: 460px;
+  font-family: 'Sarala';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 39px;
+  color: #E6F2F8;
+}
 
 
 /* Navigation */
 nav{
-  background: #CFE6F0;
+  text-align: center;
   position: sticky;
-  height: 105px;
+  height: 90px;
   width: 100%;
   top: 0;
+  justify-content: space-evenly;
+  background: #cfe6f0ec;
+  display: flex;
   overflow: hidden;
   z-index: 2;
-}
-nav ul {
-  display: flex;
-  justify-content: space-between;
-  padding: 15px 320px;
 }
 nav li{
   list-style: none;
 }
 nav a{
-  font-family: 'Sarala';
-  font-style: normal;
+  position: relative;
+  top: 27%;
   font-weight: 700;
+  font-family: 'Sarala';
+  text-decoration: none;
+  font-style: normal;
   font-size: 24px;
   line-height: 39px;
   color: #252525;
-  text-decoration: none;
   display: inline-block;
   transition: 1.5s;
 }
@@ -105,17 +119,19 @@ nav a:hover{
 }
 
 
+
 /* Content */
 content {
-  position: absolute;
   width: 100%;
   height: 6300px;
   left: 0px;
   top: 1087px;
+  align-content: center;
 }
 
+/* Discover */
 #discover{
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 2100px;
   left: 0px;
@@ -123,34 +139,7 @@ content {
   background-color: #252525;
 }
 
-.discover{
-  position: absolute;
-  width: 547px;
-  height: 104px;
-  left: 687px;
-  top: 30px;
-  font-family: 'Sarala';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 104px;
-  color: #C3E0EC;
-}
-
-h2{
-  position: absolute;
-  width: 723px;
-  height: 188px;
-  left: 316px;
-  top: 460px;
-  font-family: 'Sarala';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 39px;
-  color: #E6F2F8;
-}
-
+/* Section1 */
 #subtitle{
   font-family: 'Sarala';
   font-style: normal;
@@ -159,14 +148,45 @@ h2{
   line-height: 65px;
   color: #CFE6F0;
 }
-
+#sec1{
+  width: 65%;
+  height: 100%;
+  margin: auto;
+}
+.discover{
+  position: relative;
+  width: 547px;
+  height: 104px;
+  left: 32%;
+  right: inherit;
+  top: 30px;
+  font-family: 'Sarala';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 104px;
+  color: #C3E0EC;
+}
 .subtitle1{
-  position: absolute;
+  position: relative;
   width: 366px;
   height: 65px;
-  left: 327px;
-  top: 219px;
+  left: 0;
+  top: 2%;
 }
+
+/* TextArea1 */
+#txt1{
+  position: absolute;
+  width: 32%;
+}
+.ux-wall{
+  position: absolute;
+  width: 626px;
+  left: 50%;
+  top: 290px;
+}
+
 
 .subtitle2{
   position: absolute;
@@ -226,13 +246,7 @@ p{
 
 }
 
-.ux-wall{
-  position: absolute;
-  width: 638px;
-  height: 426px;
-  left: 977px;
-  top: 340px;
-}
+
 
 .p2{
   position: absolute;
@@ -267,11 +281,11 @@ p{
 }
 
 #labor{
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 2460px;
   left: 0px;
-  top: 2100px;
+  top: 0px;
   background-color: #2A2A2A;
 }
 
@@ -323,11 +337,11 @@ p{
 }
 
 #career{
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 1858px;
   left: 0px;
-  top: 4560px;
+  top: 0px;
   background-color: #252525;
 }
 
@@ -576,11 +590,11 @@ p{
 
 /* Footer */
 footer{
-  position: absolute;
+  position: relative;
   width: 100% ;
-  height: 525px;
+  height: 1080px;
   left: 0px;
-  top: 1900px;
+  top: 1440px;
   background: linear-gradient(180deg, rgba(173, 216, 234, 0.72) 0%, rgba(207, 230, 240, 0.83) 40.16%, rgba(250, 253, 255, 0.9) 90.97%);
 }
 
