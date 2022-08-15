@@ -1,6 +1,5 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Sarala:wght@400;700&display=swap');
-/* neva coyle e marie chapian *?
 /* Scrollbar */
 ::-webkit-scrollbar{
   width: 8px;
@@ -129,12 +128,12 @@ content {
 #discover{
   position: relative;
   width: 100%;
-  height: 3000px;
+  height: 2400px;
   left: 0px;
   top: 0px;
   background-color: #252525;
 }
-.discover{
+h1{
   top: 30px;
   font-family: 'Sarala';
   font-style: normal;
@@ -151,15 +150,15 @@ content {
   display: flex;
   justify-content: space-evenly;
 }
-#disc1{
+.center{
   width: 65%;
   height: 100%;
   margin: auto;
 }
 #txt1{
-  width: 49%;
+  width: 58%;
 }
-#sub{
+.sub{
   font-family: 'Sarala';
   font-style: normal;
   font-weight: 700;
@@ -167,19 +166,20 @@ content {
   line-height: 65px;
   color: #CFE6F0;
   position: relative;
-  width: 366px;
   height: 65px;
-  left: 0;
-  padding-top: 3%;
 }
 #div-wall{
   position: relative;
-  height: 100%;
+  height: 90%;
   width: 626px;
-  top: 150px;
-  padding-left: 20px;
 }
 .ux-wall{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   width: 98%;
 }
 
@@ -188,43 +188,51 @@ content {
 /* Section2 */
 #sec2{
   position: relative;
-  height: 720px;
+  height: 700px;
   display: flex;
   justify-content: space-evenly;
 }
 #div-ui{
   position: relative;
   height: 100%;
-  width: 626px;
+  width: 60%;
 }
 .ui-img{
-  position: relative;
-  width: 626px;
+  width: 100%;
 }
 #txt2{
   position: relative;
   height: 100%;
-  width: 49%;
+  width: 75%;
   padding-left: 20px;
-  top: 150px;
+  top: 100px;
 }
 
 
 /*Section 3*/
+.centercareer{
+  height: 1670px;
+  width: 65%;
+  margin: auto;
+}
 #sec3{
   position: relative;
   height: 720px;
+}
+#top{
   display: flex;
   justify-content: space-evenly;
-}
-#txt3{
+} 
+#div-diff{
   position: relative;
-  height: 100%;
-  width: 49%;
-  padding-left: 20px;
-  top: 150px;
+  height: 83%;
+  padding-top: 125px;
+  width: 626px;
 }
-
+.bridge{
+  position: relative;
+  width: 100%;
+}
 
 
 
@@ -238,75 +246,46 @@ p{
   font-family: 'Merriweather';
   font-style: normal;
   font-weight: 400;
-  font-size: 26px;
+  font-size: 21px;
   line-height: 30px;
   color: #E6F2F8;
 }
 
 
-.bridge{
-  position: absolute;
-  width: 638px;
-  height: 211px;
-  left: 970px;
-  top: 1860px;  
-}
-
 #labor{
   position: relative;
   width: 100%;
-  height: 2460px;
+  height: 2500px;
   left: 0px;
   top: 0px;
   background-color: #2A2A2A;
 }
-
-.market{
-  position: absolute;
-  width: 637px;
-  height: 104px;
-  left: 644px;
-  top: 45px;
-  font-family: 'Sarala';
-  font-style: normal;
-  font-weight: 700; 
-  font-size: 64px;
-  line-height: 104px;
+#sec4{
+  position: relative;
+  height: 1150px;
+}
+#sec5{
+  position: relative;
+  height: 950px;
+}
+.div-img{
   text-align: center;
-  color: #C3E0EC;
 }
-
-.p4{
-  position: absolute;
-  width: 1287px;
-  height: 570px;
-  left: 327px;
-  top: 350px;
-}
-
-.p5{
-  position: absolute;
-  width: 1289px;
-  height: 150px;
-  left: 315px;
-  top: 1613px;
-}
-
-.graphic1{
-  position: absolute;
+.graph{
+  position: relative;
   width: 850px;
   height: 530px;
-  left: 27%;
-  top: 925px;
+  text-align: center;
+  top: 10%px;
+}
+.graph2{
+  position: relative;
+  top: 50px;
 }
 
-.graphic2{
-  position: absolute;
-  width: 662px;
-  height: 568px;
-  left: 629px;
-  top: 1803px;
-}
+
+
+
 
 #career{
   position: relative;
@@ -317,154 +296,70 @@ p{
   background-color: #252525;
 }
 
-.career{
-  position: absolute;
-  width: 798px;
-  height: 86px;
-  left: 561px;
-  top: 70px;
-  font-family: 'Sarala';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 104px;
-  text-align: center;
-  color: #C3E0EC;
-}
-
-.p6{
-  position: absolute;
-  width: 1287px;
-  height: 184px;
-  left: 311px;
-  top: 302px;
-}
 
 
+
+/* UX Graduation */
 .ux-course{
   position: relative;
   width: 100%;
   height: 415px;
-  left: 0px;
-  top: 567px;
+  top: 50px;
 }
-
-.subtitle6{
-  position: absolute;
-  width: 760px;
-  height: 78px;
-  left: 311px;
-  top: 0px;
-}
-
-.subtitle7{
-  position: absolute;
-  width: 234px;
-  height: 65px;
-  left: 311px;
-  top: 112px;
-}
-
-.subtitle8{
-  position: absolute;
-  width: 211px;
-  height: 65px;
-  left: 855px;
-  top: 112px;
-}
-
-.subtitle9{
-  position: absolute;
-  width: 212px;
-  height: 65px;
-  left: 1387px;
-  top: 112px;
-}
-
-.ui-course{
-  position: absolute;
+.subs{
+  text-align: center;
+  height: 90px;
   width: 100%;
-  height: 481px;
-  left: 0px;
-  top: 982px;
+  justify-content: space-evenly;
+  display: flex;
 }
-
-.subtitle10{
-  position: absolute;
-  width: 743px;
-  height: 78px;
-  left: 311px;
-  top: 7px;
+.sub3{
+  font-family: 'Sarala';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  width: 20px;
+  line-height: 39px;
+  color: #E6F2F8;
 }
-
-.subtitle11{
-  position: absolute;
-  width: 142px;
-  height: 65px;
-  left: 678px;
-  top: 93px;
+#publi{
+  width: 260px;
 }
-
-.subtitle12{
-  position: absolute;
-  width: 287px;
-  height: 65px;
-  left: 1100px;
-  top: 93px;
+#mkt{
+  width: 250px;
 }
-
-.specialization{
-  position: absolute;
-  width: 1920px;
-  height: 318px;
-  left: 0px;
-  top: 1463px;
+#pedag{
+  width: 200px;
 }
-
-.subtitle13{
-  position: absolute;
-  width: 592px;
-  height: 78px;
-  left: 311px;
-  top: 56px;
-}
-
-/* UX Graduation */
 .ux-links{
-  position: absolute;
+  position: relative;
   width: 100%;
   height: 200px;
-  top: 225px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-evenly;
+  display: flex;
 }
-.anhanguera1{
-  position: absolute;
+.anhanguera{
+  position: relative;
   height: 150px;
   display: inline-block;
-  transition: 1.5s;
-  top: 0px;
-  left: 325px;
+  transition: 1.5s; 
 }
 .fiap{
-  position: absolute;
+  position: relative;
   width: 268px;
   display: inline-block;
+  top: 35px;
   transition: 1.5s;
-  left: 845px;
-  top: 20px;
 }
-.mackenzie1{
-  position: absolute;
+.mackenzie{
+  position: relative;
   width: 150px;
   display: inline-block;
   transition: 1.5s;
-  left: 1420px;
   top: 0px;
 }
-
 .ux-links img:hover{
   transform: scale(1.15)
 }
@@ -473,84 +368,77 @@ p{
 }
 
 
-/* UI Graduation */
-.ui-links{
-  position: absolute;
-  width: 100%;
-  height: 250x;
-  top: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
 
+
+
+/* UI Graduation */
+.ui-course{
+  position: relative;
+  width: 100%;
+  height: 610px;
+  top: 50px;  
+}
+.ui-links{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  display: flex;
+}
+#design-puc{
+  width: 200px;
+}
+#design-ecole{
+  width: 280px;
+}
 .puc{
-  position: absolute;
+  position: relative;
   display: inline-block;
   transition: 1.5s;
   width: 200px;
-  left: 651px;
-  top: 0px;
 }
-
 .ecole{
-  position: absolute;
+  position: relative;
   display: inline-block;
   transition: 1.5s;
-  width: 320px;
-  height: 299px;
-  left: 1083px;
-  top: 0px;
+  width: 280px;
 }
-
 .ui-links img:hover{
   transform: scale(1.15)
 }
-
 .ui-links li{
   list-style: none;
 }
 
 
 
+
+
 /* UX/UI Specialization */
-.specialization-links{
-  position: absolute;
+.specialization{
+  position: relative;
   width: 100%;
-  height: 170px;
-  top: 170px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  height: 318px;
 }
-.anhanguera2{
-  position: absolute;
-  display: inline-block;
-  transition: 1.5s;
-  width: 240px;
-  height: 159px;
-  left: 325px;
-  top: 0px;
+.links{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  display: flex;
+  top: 30px;
 }
 .mba{
-  position: absolute;
-  display: inline-block;
-  transition: 1.5s;
   width: 395px;
   height: 68.24px;
-  left: 785px;
   top: 35px;
-}
-.mackenzie2{
-  position: absolute;
+  position: relative;
   display: inline-block;
-  transition: 1.5s;
-  width: 159px;
-  height: 159px;
-  left: 1430px;
-  top: 0px;
+  transition: 1.5s; 
 }
 .specialization-links img:hover{
   transform: scale(1.15)
@@ -560,22 +448,39 @@ p{
 }
 
 
+
+/*Video Div*/
+#video{
+  position: relative;
+  width: 100%;
+  height: 900px;
+  left: 0px;
+  top: 0px;
+  background-color: #2A2A2A;
+}
+#div-video{
+  top: 50px;
+  text-align: center;
+}
+
+
 /* Footer */
 footer{
   position: relative;
   width: 100% ;
-  height: 1080px;
+  height: 570px;
   left: 0px;
-  top: 1440px;
   background: linear-gradient(180deg, rgba(173, 216, 234, 0.72) 0%, rgba(207, 230, 240, 0.83) 40.16%, rgba(250, 253, 255, 0.9) 90.97%);
 }
-
+.footer{
+  text-align: center;
+}
 .collumn1{
   position: absolute;
   width: 336px;
   height: 348px;
-  left: 320px;
-  top: 10px;
+  left: 290px;
+  top: 100px;
   font-family: 'Sarala';
   font-style: normal;
   font-weight: 700;
@@ -588,7 +493,7 @@ footer{
   position: absolute;
   width: 292px;
   height: 285px;
-  left: 834px;
+  left: 780px;
   top: 100px;
   font-family: 'Sarala';
   font-style: normal;
@@ -602,7 +507,7 @@ footer{
   position: absolute;
   width: 262px;
   height: 203px;
-  left: 1300px;
+  left: 1200px;
   top:105px;
   font-family: 'Sarala';
   font-style: normal;
