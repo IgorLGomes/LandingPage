@@ -59,7 +59,13 @@ h2{
   line-height: 39px;
   color: #E6F2F8;
 }
-
+.ex{
+  left: 320px;
+  top: 450px;
+  position: relative;
+  width: 800px;
+  height: 300px;
+}
 
 /* Navigation */
 nav{
